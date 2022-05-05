@@ -1,0 +1,181 @@
+.menu {
+	position: fixed;
+	width:  100%;
+	height: 25px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	z-index: 10;
+	background-color:#191919;
+ }
+
+
+ div .menu li{ 
+ 	display:  inline;
+ 	margin: 0px 10px;
+ 	position:  relative;
+
+  }
+
+div .menu li a:link{
+	color:  deeppink;
+	text-decoration:  none;
+}
+a:visited{
+	color:  black;
+}
+a:hover{
+	color: deepskyblue;
+	text-decoration: underline;
+}
+a:active{
+	color:  yellow;
+}
+
+#AboutMe{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 50px;
+	display: block;
+	position: relative;
+	color: black;
+}
+
+
+
+
+
+#skillset{
+	position: relative;
+	height: 250px;
+	color: #000;
+	border-top: 2px solid #000;
+	border: 2px solid blue;
+	
+}
+#skillset #headings{ 
+	position: relative;
+	top: 70px;
+	vertical-align: text-top;
+	position: relative;
+	color: red;
+	height: 100px;	
+}
+#skillset ul{
+	columns: 2;
+	-webkit-columns:2;
+	-moz-columnds:2;
+	
+}
+#skillset ul .a{
+	color: blue;
+}
+#skillset ul .b{
+	color: red;
+}
+
+
+
+/* pictures  */
+
+#Slider_Container{
+	height: 250px;
+	width: auto;
+	padding-left: 10px;
+	border: 2px solid green;
+}
+#Slider_Container .slider{
+	background: url(2.jpg);
+	width: 200px;
+	height: 250px;
+	animation: slide 20s infinite;
+}
+@keyframes slide{ 
+	25%{ 
+		background: url(1.jpeg);
+		width: 200px;
+		height: 250px;
+	}50%{ 
+		background: url(2.jpg);
+		width: 200px;
+		height: 250px;
+
+	}75%{ 
+		background: url(3.jpeg);
+		width: 200px;
+		height: 250px;
+	}100%{ 
+		background: url(5.jpg);
+		width: 200px;
+		height: 250px;
+	}
+}
+#cuties{
+width: 500px;
+height: 150px;
+margin: 0 auto;
+left: 50;
+margin-left: 205px;
+margin-top: -200px;
+text-align: justify;
+}
+
+
+#skills_and_resources{
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+	column-count: 3;
+	color: gold;
+	column-gap: 40px;
+}
+
+#TXST{
+	color: maroon;
+}
+#set_list{
+	color: maroon;
+
+}
+
+#skill_list{
+	column-count: 4;
+	border: 1px solid blue;
+
+}
+#skill_container{
+	border: 2px solid green;
+	width: auto;
+	height: 150px;
+}
+
+#col1{
+	color: red;
+	width: 180px;
+
+}
+#col2{
+	
+	color: blue;
+	position: relative;
+	width: 175px;
+	right: -180px;
+	top: -100px;
+	
+
+
+}
+#col3{
+	color: green;
+	position: relative; 
+	right: -330px;
+	top: -200px;
+}
+#col4{
+	color: yellow;
+	position: relative;
+	width: 180px;
+	right: -450px;
+	top: -300px;
+}
